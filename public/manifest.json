@@ -1,0 +1,11 @@
+{
+  "short_name": "G-Library",
+  "name": "G-Library - University Library Management System",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#a6192e",
+  "background_color": "#ffffff"
+}

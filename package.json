@@ -1,0 +1,47 @@
+{
+  "name": "g-library",
+  "version": "1.0.0",
+  "private": true,
+  "description": "G-Library: university library management system with a hybrid ML book recommender",
+  "homepage": ".",
+  "dependencies": {
+    "bootstrap": "5.2.3",
+    "bootstrap-icons": "1.10.2",
+    "chart.js": "3.9.1",
+    "react": "18.2.0",
+    "react-bootstrap": "2.6.0",
+    "react-chartjs-2": "4.3.1",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.4.3",
+    "react-scripts": "5.0.1",
+    "sass": "1.56.1"
+  },
+  "devDependencies": {
+    "gh-pages": "4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
